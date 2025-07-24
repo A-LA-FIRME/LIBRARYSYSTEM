@@ -39,17 +39,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. **Configurar base de datos:**
-
-```bash
-# Crear DB en MySQL
-mysql -u root -p
-CREATE DATABASE Prueba3;
-source database/schema.sql;
-EXIT;
-```
-
-5. **Configurar variables de entorno (.env):**
+4. **Configurar variables de entorno (.env):**
 
 ```env
 DB_HOST=localhost
@@ -58,13 +48,13 @@ DB_PASSWORD=tu_contraseña_mysql
 DB_NAME=Prueba3
 ```
 
-6. **Compilar TypeScript:**
+5. **Compilar TypeScript:**
 
 ```bash
 npx tsc
 ```
 
-7. **Ejecutar aplicación:**
+6. **Ejecutar aplicación:**
 
 ```bash
 python app.py
