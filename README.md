@@ -12,7 +12,6 @@ Sistema web para gestión de préstamos de libros con Flask y TypeScript.
 ## Requisitos
 
 - Python 3.8+
-- MySQL 5.7+
 - Node.js (para TypeScript)
 
 ## Instalación
